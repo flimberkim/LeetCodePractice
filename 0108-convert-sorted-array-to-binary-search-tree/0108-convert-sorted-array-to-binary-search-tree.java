@@ -1,3 +1,7 @@
+//시간복잡도 : O(N), N은 배열의 길이
+//자료구조 : Tree
+//아이디어 : 배열을 중간값을 기준으로 두 개로 나누고, 각 부분 마다 재귀호출로 다시 트리를 만든다. 배열이 이미 정렬되어 있으므로, 매번 정렬을 하지 않아도 된다.
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
