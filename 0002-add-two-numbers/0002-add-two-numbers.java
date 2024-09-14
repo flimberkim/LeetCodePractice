@@ -1,3 +1,7 @@
+//시간복잡도 : O(N), N은 주어진 두 개의 linkedList 중 긴 것의 길이
+//자료구조 : LinkedList
+//아이디어 : 주어진 두 개의 linkedList를 돌면서 숫자를 더하고, 올림수가 생기는 경우를 추가로 처리해준다.
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
